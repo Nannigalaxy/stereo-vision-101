@@ -1,6 +1,23 @@
 # Stereo Vision 101: Calibration, Rectification & 3D Reconstruction
 
-Welcome to **Stereo Vision 101**, a comprehensive Python and Jupyter Notebook-based playground for hands-on exploration of core computer vision concepts. This repository covers camera calibration (using a manual checkerboard method), epipolar geometry, stereo rectification, block-matching-based disparity computation, and interactive 3D point cloud reconstruction.
+Welcome to **Stereo Vision 101**, a "not so well-documented" notebook for hands-on exploration of core computer vision concepts. 
+
+This is for the beginners. If you're the John Carmack of the computer vision, I'm fully prepared for my public execution in the GitHub issues section.
+
+This repo is not optimized for comfort. It is designed to slowly drag you from:  
+"yeah yeah I know the theory"  
+to  
+"what do you mean the baseline direction is wrong?"
+
+You will:
+- calibrate cameras for 4 hours because one image was blurry
+- discover that rectification is black magic with linear algebra branding
+- question why your point cloud looks like abstract modern art
+- develop trust issues with reprojection error
+- finally understand what `Q` actually does after pretending for weeks
+
+The objective is simple:
+break things, question everything, suffer productively, and eventually understand stereo vision from first principles instead of API rituals.
 
 ---
 
