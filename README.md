@@ -9,8 +9,7 @@ This repo is not optimized for comfort. It is designed to slowly drag you from:
 to  
 "what do you mean the baseline direction is wrong?"
 
-You will:
-- calibrate cameras for 4 hours because one image was blurry
+You might:
 - discover that rectification is black magic with linear algebra branding
 - question why your point cloud looks like abstract modern art
 - develop trust issues with reprojection error
@@ -82,7 +81,7 @@ Open `stereo_vision_101.ipynb` and execute the cells sequentially to visualize e
 
 ## Interactive Tuning GUI (`stereo_control_ui_.py`)
 
-Borrowed from: https://learnopencv.com/depth-perception-using-stereo-camera-python-c/
+Sourced from: https://learnopencv.com/depth-perception-using-stereo-camera-python-c/
 
 Tuning the StereoSGBM matcher is vital for clean disparity maps. This is a standalone OpenCV utility script to tune matching parameters in real time using slider trackbars. It helps in understanding the effect of different parameters on the disparity map.
 
