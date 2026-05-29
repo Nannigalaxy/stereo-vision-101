@@ -18,6 +18,8 @@ You might:
 The objective is simple:
 break things, question everything, suffer productively, and eventually understand stereo vision from first principles instead of API rituals.
 
+Completeness of this Notebook: This notebook is not yet complete. I plan to update it with additional data samples and further discoveries as I continue improving the results.
+
 ---
 
 ## Topics:
