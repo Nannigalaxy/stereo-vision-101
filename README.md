@@ -55,7 +55,7 @@ Make sure you have Python 3.11+ installed. It is highly recommended to use a vir
 
 ### 1. Clone the repository
 ```bash
-git clone <repository_url>
+git clone https://github.com/Nannigalaxy/stereo-vision-101
 cd stereo-101
 ```
 
